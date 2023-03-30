@@ -1,4 +1,4 @@
-# ola-mundo
+# task-tracker
 
 ## Project setup
 ```
@@ -22,6 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Deployment
-See [docker-nginx](https://cli.vuejs.org/guide/deployment.html#docker-nginx).
