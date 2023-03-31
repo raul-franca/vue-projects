@@ -5,7 +5,7 @@
         </div>
         <div class="column is-three-quarter conteudo">
             <Formulario @aoSalvarTarefa="salvarTarefa"/>
-            <div class="lista">
+            <div class="lista" id="listaTarefas">
                 <Tarefa v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa"/>
                 <Box v-if="listaEstaVazia">
                     Lista de Tarefas esta vazia.
@@ -66,6 +66,10 @@ main.modo-escuro{
     --bg-primario: #2b2d42;
     --texto-primario: #ddd;
 }
+#listaTarefas{
+    --texto-primario: #4a4a4a;
+}
+
 .conteudo{
     background-color: var(--bg-primario);
 }
