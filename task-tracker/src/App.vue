@@ -1,7 +1,7 @@
 <template>
     <main class="columns is-gapless is-multiline" :class="{ 'modo-escuro': modoEscuroAtivo }">
         <div class="column is-one-quarter">
-            <BarraLateral @aoTemaAlterado="trocarTema"/>
+            <BarraLateral @aoAlterarModo="trocarTema"/>
         </div>
         <div class="column is-three-quarter conteudo">
             <router-view></router-view>
