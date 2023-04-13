@@ -45,7 +45,7 @@ export default defineComponent({
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Lista",
   methods: {
-    excluir(id){
+    excluir(id:string){
         this.store.commit(EXCLUIR_PROJETO,id)
     }
   },
